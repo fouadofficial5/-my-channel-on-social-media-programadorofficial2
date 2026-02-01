@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="روابط حساباتي على السوشيال ميديا" />
+  <title>My Social Links</title>
+
+  <!-- Fonts (اختياري) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons (Font Awesome) -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    referrerpolicy="no-referrer"
+  />
+
+  <!-- CSS file -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main class="page">
+    <!-- Background glow -->
+    <div class="bg-glow" aria-hidden="true"></div>
+
+    <section class="card" aria-label="Profile and social links">
+      <header class="profile">
+        <!-- ✅ غيّر الصورة هنا -->
+        <img
+          class="avatar"
+          src="assets/profile.jpg"
+          alt="Profile photo"
+          loading="lazy"
+        />
+
+        <div class="profile-text">
+          <!-- ✅ غيّر الاسم هنا -->
+          <h1 class="name">Fouad Kassi</h1>
+          <!-- ✅ غيّر اليوزر هنا -->
+          <p class="handle">@fouadofficial5</p>
+          <p class="bio">روابط حساباتي الرسمية — اضغط على أي منصة للدخول مباشرة.</p>
+        </div>
+      </header>
+
+      <div class="links" role="list">
+        <!-- كل زر عنده data-platform — والروابط سنضعها في JavaScript -->
+        <button class="link-btn platform-instagram" data-platform="instagram" role="listitem" type="button">
+          <span class="icon"><i class="fa-brands fa-instagram"></i></span>
+          <span class="label">Instagram</span>
+          <span class="arrow"><i class="fa-solid fa-arrow-left"></i></span>
+        </button>
+
+        <button class="link-btn platform-tiktok" data-platform="tiktok" role="listitem" type="button">
+          <span class="icon"><i class="fa-brands fa-tiktok"></i></span>
+          <span class="label">TikTok</span>
+          <span class="arrow"><i class="fa-solid fa-arrow-left"></i></span>
+        </button>
+
+        <button class="link-btn platform-facebook" data-platform="facebook" role="listitem" type="button">
+          <span class="icon"><i class="fa-brands fa-facebook-f"></i></span>
+          <span class="label">Facebook</span>
+          <span class="arrow"><i class="fa-solid fa-arrow-left"></i></span>
+        </button>
+
+        <button class="link-btn platform-youtube" data-platform="youtube" role="listitem" type="button">
+          <span class="icon"><i class="fa-brands fa-youtube"></i></span>
+          <span class="label">YouTube</span>
+          <span class="arrow"><i class="fa-solid fa-arrow-left"></i></span>
+        </button>
+
+        <button class="link-btn platform-x" data-platform="x" role="listitem" type="button">
+          <span class="icon"><i class="fa-brands fa-x-twitter"></i></span>
+          <span class="label">X (Twitter)</span>
+          <span class="arrow"><i class="fa-solid fa-arrow-left"></i></span>
+        </button>
+
+        <button class="link-btn platform-snapchat" data-platform="snapchat" role="listitem" type="button">
+          <span class="icon"><i class="fa-brands fa-snapchat"></i></span>
+          <span class="label">Snapchat</span>
+          <span class="arrow"><i class="fa-solid fa-arrow-left"></i></span>
+        </button>
+
+        <button class="link-btn platform-whatsapp" data-platform="whatsapp" role="listitem" type="button">
+          <span class="icon"><i class="fa-brands fa-whatsapp"></i></span>
+          <span class="label">WhatsApp</span>
+          <span class="arrow"><i class="fa-solid fa-arrow-left"></i></span>
+        </button>
+
+        <button class="link-btn platform-telegram" data-platform="telegram" role="listitem" type="button">
+          <span class="icon"><i class="fa-brands fa-telegram"></i></span>
+          <span class="label">Telegram</span>
+          <span class="arrow"><i class="fa-solid fa-arrow-left"></i></span>
+        </button>
+
+        <button class="link-btn platform-linkedin" data-platform="linkedin" role="listitem" type="button">
+          <span class="icon"><i class="fa-brands fa-linkedin-in"></i></span>
+          <span class="label">LinkedIn</span>
+          <span class="arrow"><i class="fa-solid fa-arrow-left"></i></span>
+        </button>
+
+        <button class="link-btn platform-github" data-platform="github" role="listitem" type="button">
+          <span class="icon"><i class="fa-brands fa-github"></i></span>
+          <span class="label">GitHub</span>
+          <span class="arrow"><i class="fa-solid fa-arrow-left"></i></span>
+        </button>
+
+        <button class="link-btn platform-discord" data-platform="discord" role="listitem" type="button">
+          <span class="icon"><i class="fa-brands fa-discord"></i></span>
+          <span class="label">Discord</span>
+          <span class="arrow"><i class="fa-solid fa-arrow-left"></i></span>
+        </button>
+
+        <button class="link-btn platform-twitch" data-platform="twitch" role="listitem" type="button">
+          <span class="icon"><i class="fa-brands fa-twitch"></i></span>
+          <span class="label">Twitch</span>
+          <span class="arrow"><i class="fa-solid fa-arrow-left"></i></span>
+        </button>
+
+        <button class="link-btn platform-threads" data-platform="threads" role="listitem" type="button">
+          <span class="icon"><i class="fa-brands fa-threads"></i></span>
+          <span class="label">Threads</span>
+          <span class="arrow"><i class="fa-solid fa-arrow-left"></i></span>
+        </button>
+
+        <button class="link-btn platform-pinterest" data-platform="pinterest" role="listitem" type="button">
+          <span class="icon"><i class="fa-brands fa-pinterest-p"></i></span>
+          <span class="label">Pinterest</span>
+          <span class="arrow"><i class="fa-solid fa-arrow-left"></i></span>
+        </button>
+
+        <button class="link-btn platform-reddit" data-platform="reddit" role="listitem" type="button">
+          <span class="icon"><i class="fa-brands fa-reddit-alien"></i></span>
+          <span class="label">Reddit</span>
+          <span class="arrow"><i class="fa-solid fa-arrow-left"></i></span>
+        </button>
+
+        <button class="link-btn platform-spotify" data-platform="spotify" role="listitem" type="button">
+          <span class="icon"><i class="fa-brands fa-spotify"></i></span>
+          <span class="label">Spotify</span>
+          <span class="arrow"><i class="fa-solid fa-arrow-left"></i></span>
+        </button>
+
+        <button class="link-btn platform-soundcloud" data-platform="soundcloud" role="listitem" type="button">
+          <span class="icon"><i class="fa-brands fa-soundcloud"></i></span>
+          <span class="label">SoundCloud</span>
+          <span class="arrow"><i class="fa-solid fa-arrow-left"></i></span>
+        </button>
+
+        <button class="link-btn platform-website" data-platform="website" role="listitem" type="button">
+          <span class="icon"><i class="fa-solid fa-globe"></i></span>
+          <span class="label">Website</span>
+          <span class="arrow"><i class="fa-solid fa-arrow-left"></i></span>
+        </button>
+
+        <button class="link-btn platform-email" data-platform="email" role="listitem" type="button">
+          <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+          <span class="label">Email</span>
+          <span class="arrow"><i class="fa-solid fa-arrow-left"></i></span>
+        </button>
+      </div>
+
+      <footer class="footer">
+        <p class="footer-text">© <span id="year"></span> — All rights reserved.</p>
+      </footer>
+    </section>
+  </main>
+
+  <!-- JS file -->
+  <script src="script.js"></script>
+</body>
+</html>
