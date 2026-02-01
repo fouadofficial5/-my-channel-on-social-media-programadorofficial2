@@ -12,13 +12,13 @@
      (ضع روابطك مرة واحدة فقط)
   ========================= */
   const SOCIAL_LINKS = {
-    instagram: "https://www.instagram.com/fouadofficial5",
-    tiktok: "https://www.tiktok.com/@username",
-    facebook: "https://www.facebook.com/username",
-    youtube: "https://www.youtube.com/@username",
-    x: "https://x.com/username",
+    instagram: "https://www.instagram.com/programadorofficial",
+    tiktok: "https://www.tiktok.com/@programadorofficial",
+    facebook: "https://www.facebook.com/programadorofficial",
+    youtube: "https://www.youtube.com/@programadorofficial",
+    x: "https://x.com/fouadofficial5",
     snapchat: "https://www.snapchat.com/add/username",
-    whatsapp: "https://wa.me/212600000000",
+    whatsapp: "https://wa.me/212642138756",
     telegram: "https://t.me/username",
     linkedin: "https://www.linkedin.com/in/username",
     github: "https://github.com/username",
